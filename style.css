@@ -1,0 +1,97 @@
+@font-face {
+    font-family: vazir;
+    src: url(./Font/vazir-font-shahregraphic.ir/vazir-font-v16.1.0/Vazir-Light.ttf) format(ttf);
+}
+
+body {
+    font-family: vazir;
+    background-color: rgb(128, 126, 126);
+    margin: 0;
+    padding: 0;
+}
+
+.imagelogo {
+    height: 100%;
+    width: 100%;
+}
+
+.yarvand {
+    display: inline-block;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+.search {
+    border-radius: 5px;
+    padding: 10px 20px 10px 570px;
+    background-color: rgb(59, 59, 59);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    max-width: 768px;
+}
+
+.adrres {
+    text-align: right;
+    font-size: 19px;
+}
+/* media query*/
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: rgb(128, 126, 126);
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagelogo {
+        display: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    .search {
+        border-radius: 5px;
+        padding: 10px 20px 10px 480px;
+        background-color: rgb(59, 59, 59);
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        background-color:rgb(128, 126, 126);
+        margin: 0;
+        padding: 0;
+    }
+    .imagelogo {
+        height: 100%;
+        width: 100%;
+    }
+    .search {
+        border-radius: 5px;
+        padding: 10px 20px 10px 480px;
+        background-color: rgb(59, 59, 59);
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        max-width: 768px;
+    }
+    
+    .imagelogor {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .imagelogor {
+        display: none;
+    }
+}
+
+
